@@ -1,0 +1,1094 @@
+.jumbotron {
+  background-color: #f4511e;
+  color: #fff;
+  padding: 100px 25px;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+}
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+.logo-small {
+  color: #f4511e;
+  font-size: 50px;
+}
+
+button.btn {
+  border: none;
+  border-radius: 20px;
+  padding: 1px 3px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 15px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  font-size: 50px;
+  margin-top: 15px;
+  font-family: "Satisfy";
+  padding: 5%;
+}
+
+.thumbnail {
+  border: 2px 2px black !important;
+  border-radius: 20;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+  color: #ffffff;
+}
+
+.carousel-indicators li {
+  border-color: #000000;
+}
+
+.carousel-indicators li.active {
+  background-color: #000000;
+}
+
+
+.item h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic;
+  margin: 70px 0;
+}
+
+.carousel-caption {
+  bottom: 220px;
+
+}
+
+.carousel-caption h3 {
+  width: 90%;
+  font-size: 70px;
+  letter-spacing: 2px;
+  font-family: "Courgette";
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 5px 5px black;
+}
+
+.carousel-caption p {
+  font-size: 30px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-family: "Kalam";
+  color: #ffffff;
+  text-shadow: 2px 2px 2px black;
+
+}
+
+.carousel-caption .main-btn {
+  margin-top: 60px;
+}
+
+
+.carousel-caption .carousel-btn {
+  padding: 3px 20px;
+  background: #13d0e9;
+  color: #000;
+  font-family: "Ubuntu";
+  font-size: 25px;
+}
+
+.carousel-caption .carousel-btn:hover {
+  border: 2px #13d0e9;
+  background: transparent;
+  color: #fff;
+  box-shadow: 0.5px 0.5px 2px 2px #13d0e9;
+}
+
+.title-tag {
+  padding: 50px;
+  font-family: "Arvo";
+  font-weight: bold;
+  margin-top: 70px;
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 10px !important;
+}
+
+
+.item span {
+  font-style: normal;
+}
+
+.panel {
+  border: 1px solid #f4511e;
+  border-radius: 0 !important;
+  transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+  box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+}
+
+.panel-footer .btn:hover {
+  border: 1px solid #f4511e;
+  background-color: #fff !important;
+  color: #f4511e;
+}
+
+.panel-heading {
+  color: #fff !important;
+  background-color: #f4511e !important;
+  padding: 25px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+  background-color: white !important;
+}
+
+.panel-footer h3 {
+  font-size: 32px;
+}
+
+.panel-footer h4 {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.panel-footer .btn {
+  margin: 15px 0;
+  background-color: #f4511e;
+  color: #fff;
+}
+
+.navbar {
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: transparent;
+  display: flex;
+  padding: 0 2% 2% 2%;
+  justify-content: space-between;
+  align-items: center;
+  border: 0;
+  font-size: 13px !important;
+  line-height: 1.42857143 !important;
+  font-weight: bold;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+  color: rgb(0, 0, 0) !important;
+  padding-top: 20px;
+  position: relative;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  color: #ffffff !important;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  padding-top: 20px;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+main .blog {
+  background: url('../images/blog-background.jpg');
+  background-repeat: no-repeat;
+}
+
+main .blog .inner-blog {
+  background: url('../images/blog-background-decoration.png')
+}
+
+main .blog .blog-post {
+  padding: 5px;
+}
+
+main .blog-post .blog-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 20px;
+  width: 80%;
+  margin: 60px 2px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, .2);
+}
+
+main .blog-content .blog-title {
+  padding: 0.8px 0.6px;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  color: #000000;
+  font-size: 5px;
+}
+
+main .blog-content .btn-blog {
+  padding: 2px 15px;
+  background: rgba(0, 0, 0, .4);
+  font-family: "Acme";
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+main .blog-content .blog-title p {
+  font-size: 15px;
+  font-family: "Kiwi Maru";
+}
+
+main .blog-content .btn-blog:hover {
+  background: #ffffff;
+  color: #000000;
+  font-family: "Acme";
+  letter-spacing: 1px;
+}
+
+.top-bloggers {
+  background: url("../images/pattern.jpg");
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.profile-col {
+
+  flex-basis: 31%;
+  background: #95cfff33;
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-col:hover {
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.profile-img {
+  padding: 0.5%;
+  margin-top: 1px;
+  margin: 0 40%;
+}
+
+.profile-text {
+  text-align: center;
+}
+
+.profile-text h3 {
+  font-family: "Acme";
+  font-size: 30px;
+
+}
+
+.profile-text h6 {
+  margin-bottom: 8px;
+  margin-top: 2px;
+  letter-spacing: 1px;
+}
+
+.profile-text p {
+  font-family: "Titillium Web";
+  font-size: 20px;
+  padding: 3%;
+}
+
+.connections {
+  margin: 3px 300px;
+  padding: 5%;
+
+
+}
+
+.icon {
+  padding-left: 5%;
+  padding-right: 10%;
+  font-size: 25px;
+
+}
+
+.icon:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .2);
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+main .popular-blogs {
+  display: grid;
+  grid-template-columns: 70% 40%;
+}
+
+.campus {
+  width: 80%;
+  margin: auto;
+  margin-left: 50px;
+  text-align: left;
+  padding-top: 50px;
+  margin-top: 150px;
+}
+
+.popular {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.popular img {
+  width: 100%;
+  display: block;
+}
+
+.layer {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+.layer:hover {
+  background: rgba(0, 0, 0, .8);
+
+}
+
+.layer .description {
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 26px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  padding: 25px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.layer:hover .description {
+  bottom: 2%;
+  opacity: 1;
+}
+
+.description h1 {
+  font-family: "Averia Serif Libre";
+}
+
+.description h6 {
+  font-family: "Crimson Pro";
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.description p {
+  font-family: "Recursive";
+  font-size: 20px;
+}
+
+main .btn-popular {
+  padding: 3px 20px;
+  color: #fff;
+  background: transparent;
+  box-sizing: border-box;
+  font-family: "Josefins Sans";
+  border: 2px 2px 2px 2px #fff;
+}
+
+main .btn-popular:hover {
+  background: rgba(12, 233, 222, 0.8);
+  color: #000;
+}
+
+main .popular-col {
+  padding: 25px;
+}
+
+.pages {
+  justify-content: center;
+  margin: 4px 0;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  padding: 3px;
+}
+
+.pages a {
+  padding: 0 2%;
+  margin-bottom: 2px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-family: "Merriweather";
+}
+
+.pages .pages-style {
+  padding: 3%;
+  color: #000;
+}
+
+main .pages .pages-style:hover {
+  background: rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  border-radius: 5000px;
+  font-weight: bold;
+}
+
+
+
+.sidebar {
+  margin-top: 25px;
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+
+.sidebar .head {
+  padding-bottom: 5px;
+  font-family: "Libre Baskerville";
+  font-weight: bolder;
+}
+
+
+.list-item {
+  list-style-type: none;
+  padding: 5px;
+  padding-left: 30px;
+  background: #80c5ca;
+  margin: 8px;
+  border-radius: 100px;
+  color: #000;
+}
+
+.list-item:hover {
+  background: rgba(3, 99, 102, 0.897);
+  color: #ffffff;
+}
+
+.pop {
+  padding-top: 30px;
+}
+
+.sidebar .popular-tags {
+  padding: 5px 0;
+
+}
+
+.sidebar .popular-tags .tags {
+  padding-left: 40px;
+  display: space-between;
+
+}
+
+.sidebar .popular-tags .tags .tag h4 {
+  padding: 10px;
+  padding-left: 30px;
+  background: #80c5ca;
+  margin: 8px;
+  border-radius: 100px;
+  margin-bottom: 10px !important;
+  color: #000;
+}
+
+.sidebar .popular-tags .tags .tag h4:hover {
+  background: rgba(3, 99, 102, 0.897);
+  color: #ffffff;
+}
+
+.fb {
+  color: #2073b8;
+}
+
+.twitter {
+  color: #13d0e9;
+}
+
+.in {
+  color: #06196d;
+}
+
+.gmail {
+  color: #c01010;
+}
+
+.footer {
+  height: 100%;
+  background: #000000;
+  margin-top: 150px;
+}
+
+.footer .container {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+
+}
+
+.footer .container .about-us {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 3px 1px;
+  margin-top: 100px;
+  text-align: center;
+  font-family: "Zilla Slab";
+
+}
+
+.footer .container .about-us h2 {
+  margin-left: 420px;
+}
+
+.footer .container .about-us p {
+  font-family: "Fira Sans";
+
+}
+
+.footer .container .follow-us {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 3px 1px;
+  margin-top: 100px;
+  text-align: center;
+  font-family: "Zilla Slab";
+}
+
+.footer .container .follow-us .footer-icon-place {
+  margin-left: 52px;
+}
+
+.footer .container .follow-us .footer-icon {
+  padding: 5px;
+  font-size: 25px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.copyright {
+  margin-top: 50px;
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto Mono";
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.row {
+  margin: 2px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.btn-contact {
+  width: 93%;
+}
+
+.form {
+  margin: 20px 450px;
+}
+
+.form-outline {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 25px;
+}
+
+.col {
+  justify-content: space-evenly;
+}
+
+.form .btn {
+  margin-top: 90px;
+}
+
+.contact .header-page {
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Crimson Pro";
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.blog-pages {
+  background: url('../images/blogger-profile.jpg');
+  margin-top: 0;
+}
+
+.blog-background-page img {
+  width: 100%;
+}
+
+.full-blog .blog-head {
+  background: #ffd6d6;
+  border-radius: 30px;
+  margin: 20px;
+  margin-top: 100px;
+  text-align: center;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 50px;
+  color: #000;
+}
+
+.full-blog .blog-head h2 {
+  font-family: "Roboto Slab";
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 10px;
+}
+
+.full-blog .blog-head h5 {
+  font-family: "Playfair Display";
+  padding-top: 1px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+.full-blog .blog-head h6 {
+  font-family: "Crimsom Pro";
+  font-size: 18px;
+  text-align: right;
+  margin-right: 250px;
+  letter-spacing: 2px;
+}
+
+.full-blog .blog-head p {
+  font-family: "Kiwi Maru";
+  font-size: 20px;
+  margin-top: 100px;
+  text-align: left;
+}
+
+.public-response {
+  color: #000;
+  margin-top: 0px;
+}
+
+.like-dislike-share {
+  font-size: 28px;
+}
+
+.icon-sec {
+  margin-left: 200px;
+}
+
+.like-dislike-share .like-dislike-share-icons {
+  margin: 0 100px;
+  cursor: pointer;
+}
+
+.btn .blog-page-btn {
+  background: #13d0e9;
+  border-radius: 20px;
+  padding: 5px 20px;
+  border: none;
+  margin-top: 10px;
+  color: #000;
+}
+
+.btn .blog-page-btn:hover {
+  background: rgb(4, 124, 124);
+  color: #ffffff;
+}
+
+.comment-sec h2 {
+  font-family: "Merriweather";
+  font-weight: bold;
+}
+
+.comments-blog {
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.comments-blog h4 {
+  font-family: "Lora";
+  font-size: 25px;
+}
+
+.comments-blog p {
+  font-family: "Recursive";
+  margin-left: 15px;
+  font-size: 15px;
+  margin-top: 1px;
+}
+
+.comment-writing {
+  margin-top: 50px;
+}
+
+.blog-write {
+  margin: 50px 250px;
+}
+
+.blog-write .btn-write-page {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.write-head h2 {
+  font-family: "Arvo";
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.footer .footer-sec {
+  margin: 0 110px;
+  font-family: "Zilla Slab";
+  padding: 0 10px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 760px) {
+
+  .logo {
+    font-size: 50px;
+    margin-top: 5px;
+    font-family: "Satisfy";
+    padding: 2%;
+  }
+
+  .navbar-default .navbar-toggle {
+    display: initial;
+  }
+
+  .item {
+    width: 100%;
+  }
+
+  .carousel-caption {
+    bottom: 110px;
+  }
+
+  .carousel-caption h3 {
+    width: 90%;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-family: "Courgette";
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+  }
+
+  .carousel-caption p {
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    word-spacing: 2px;
+    font-family: "Kalam";
+    color: #ffffff;
+    text-shadow: 1px 1px 1px black;
+
+  }
+
+  .carousel-caption .main-btn {
+    margin-top: 30px;
+  }
+
+
+  .carousel-caption .carousel-btn {
+    padding: 3px 20px;
+    background: #13d0e9;
+    color: #000;
+    font-family: "Ubuntu";
+    font-size: 15px;
+  }
+
+  .profile-img {
+    padding: 0.5%;
+    margin-top: 1px;
+    margin: 0 33%;
+
+  }
+
+  .connections {
+    margin: 3px 200px;
+    padding: 3%;
+
+
+  }
+
+  .icon {
+    padding-left: 3%;
+    padding-right: 5%;
+    font-size: 20px;
+
+  }
+
+  .profile-text h3 {
+    font-family: "Acme";
+    font-size: 30px;
+
+  }
+
+  .profile-text h6 {
+    margin-bottom: 8px;
+    margin-top: 2px;
+    letter-spacing: 1px;
+  }
+
+  .profile-text p {
+    font-family: "Titillium Web";
+    font-size: 17px;
+    padding: 3%;
+  }
+
+  .contact .contact-img{
+    width: 100% ;
+    height: 100%;
+  }
+
+  .form {
+    margin: 10px 200px;
+  }
+
+  .blog-write {
+    margin: 20px 120px;
+  }
+  .icon-sec {
+    margin-left: 80px;
+  }
+  
+}
+
+@media only screen and (max-width:1130px) {
+  .sidebar {
+    margin-top: 25px;
+    padding-left: 7px;
+    padding-top: 10px;
+
+  }
+
+  .sidebar .head {
+    padding-bottom: 2px;
+    font-family: "Libre Baskerville";
+    font-weight: bolder;
+  }
+
+  .sidebar .head h2 {
+    font-size: 25px;
+  }
+
+  .popular-tags .head h2 {
+    font-size: 18px;
+  }
+
+
+  .list-item {
+    list-style-type: none;
+    padding: 2px;
+    padding-left: 10px;
+    background: #80c5ca;
+    margin: 2px;
+    border-radius: 100px;
+    color: #000;
+  }
+
+  .list-item h4 {
+    font-size: 10px;
+  }
+
+  .popular-tags .tags h4 {
+    font-size: 10px;
+  }
+
+  .list-item:hover {
+    background: rgba(3, 99, 102, 0.897);
+    color: #ffffff;
+  }
+
+  .pop {
+    padding-top: 10px;
+  }
+
+  .sidebar .popular-tags {
+    padding: 3px 0;
+
+  }
+
+  .sidebar .popular-tags .tags {
+    padding-left: 25px;
+    display: space-between;
+
+  }
+
+  .sidebar .popular-tags .tags .tag h4 {
+    padding: 4px;
+    padding-left: 10px;
+    background: #80c5ca;
+    margin: 2px;
+    border-radius: 100px;
+    margin-bottom: 5px !important;
+    color: #000;
+  }
+
+  .sidebar .popular-tags .tags .tag h4:hover {
+    background: rgba(3, 99, 102, 0.897);
+    color: #ffffff;
+  }
+
+  .connections {
+    margin: 2.5px 150px;
+    padding: 2.5%;
+
+
+  }
+
+  .icon {
+    padding-left: 2.5%;
+    padding-right: 4%;
+    font-size: 17px;
+
+  }
+
+  .layer:hover .description {
+    bottom: 0.5%;
+    opacity: 1;
+  }
+
+  .description h1 {
+    font-family: "Averia Serif Libre";
+    font-size: 20px;
+  }
+
+  .description h6 {
+    font-family: "Crimson Pro";
+    font-size: 10px;
+    margin-bottom: 25px;
+  }
+
+  .description p {
+    font-family: "Recursive";
+    font-size: 8px;
+  }
+
+  main .btn-popular {
+    padding: 1px 10px;
+    font-size: 6px;
+    color: #fff;
+    background: transparent;
+    box-sizing: border-box;
+    font-family: "Josefins Sans";
+    border: 1px 1px 1px 1px #fff;
+  }
+
+  main .btn-popular:hover {
+    background: rgba(12, 233, 222, 0.8);
+    color: #000;
+  }
+
+  main .popular-col {
+    padding: 25px;
+  }
+
+  .footer .container .about-us h2 {
+    margin-left: 420px;
+    font-size: 25px;
+  }
+
+  .footer .container .about-us p {
+    font-family: "Fira Sans";
+    font-size: 15px;
+
+  }
+
+  .like-dislike-share .like-dislike-share-icons {
+    margin: 0 40px;
+    cursor: pointer;
+  }
+
+
+  .footer .container .follow-us {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3px 1px;
+    font-size: 20px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Zilla Slab";
+  }
+
+  .footer .container .follow-us h2 {
+    font-size: 25px
+  }
+
+  .footer .container .follow-us .footer-icon-place {
+    margin-left: 52px;
+  }
+
+  .footer .container .follow-us .footer-icon {
+    padding: 3px;
+    font-size: 15px;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+
+  .footer-sec h4 {
+    font-size: 13px;
+  }
+
+  .copyright {
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto Mono";
+    font-size: 5px;
+    letter-spacing: 2px;
+  }
+
+  .contact .contact-img{
+    width: 100% ;
+    height: 100%;
+  }
+
+  .form {
+    margin: 15px 300px;
+  }
+  
+  .blog-write {
+    margin: 30px 180px;
+  }
+  .icon-sec {
+    margin-left: 120px;
+  }
+
+  .like-dislike-share .like-dislike-share-icons {
+    margin: 0 70px;
+    cursor: pointer;
+  }
+}
